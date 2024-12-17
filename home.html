@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengumuman Kelulusan Biro Riset Pengembangan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+</head>
+<body>
+    <div class="container">
+        <h1>Pengumuman Kelulusan Berkas</h1>
+        <h1>Biro Riset Pengembangan Ormawa Eksekutif PKU</h1>
+        <input type="text" id="searchInput" placeholder="Nama Lengkap atau NIM">
+        <button onclick="searchResult()"><span class="material-symbols-outlined">
+            search
+            </span></button>
+        <div id="result" class="result"></div>
+        <div id="motivation" class="motivation"></div>
+        <div id="waButton" style="display: none; margin-top: 20px;">
+            <a href="https://chat.whatsapp.com/IwsC09UDPmsBK3x4DqMbpR" target="_blank">
+                <button style="background-color: #1449db; color: white; border: none; padding: 10px; cursor: pointer;">
+                    Gabung Grup WhatsApp
+                </button>
+            </a>
+        </div>
+        <div id="wwButton" style="display: none; margin-top: 20px;">
+            <a href="https://docs.google.com/spreadsheets/d/1u08UI_IV3vpjW2oiXQ_1l9v5ItQZOajY4KPd2z2mtMs/edit?gid=0#gid=0" target="_blank">
+                <button style="background-color: #1449db; color: white; border: none; padding: 10px; cursor: pointer;">
+                    Jadwal Wawancara
+                </button>
+            </a>
+        </div>
+        <audio id="successAudio" src="success.mp3"></audio>
+        <audio id="failureAudio" src="failure.mp3"></audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
